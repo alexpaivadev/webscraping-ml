@@ -1,0 +1,63 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribuição / pacotes binários
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+wheels/
+.shared/
+.python-eggs/
+*.manifest
+*.spec
+
+# Instalação de pacotes com pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Arquivos do ambiente
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Arquivos setuptool
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Arquivos do Scrapy
+.scrapy/
+
+# Arquivos do Jupyter Notebook
+.ipynb_checkpoints
+
+# Arquivos do Pycharm
+.idea/
+
+# Logs e bancos de dados locais
+*.log
+*.sqlite3
+
+# Arquivos de teste
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Arquivos de sistema operacional
+Thumbs.db
+.DS_Store
+
+# Arquivos de lock
+poetry.lock
